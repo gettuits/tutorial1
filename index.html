@@ -1,4 +1,17 @@
 <html>
+<head>
+<!-- <link href="css/styles.css" media="all" rel="stylesheet" type="text/css" /> -->
+<style type="text/css">
+#footer {
+	position: relative;
+    height: 150px;
+    clear:both;
+    color: black;
+    font-size:9px;
+    font-family:Verdana, Arial, sans-serif;
+    text-align: right;
+} </style>
+</head>
 <body>
 	<!-- Begin: Handlebar templates -->
 	<!-- template to render home page -->
@@ -6,6 +19,7 @@
     	<div class='header'><h1>Home</h1></div>
     	<div class='search-bar'><input class='search-key' type="text"/></div>
     	<ul class='employee-list'></ul>
+    	<div id="footer">2013&copy; v.0.0.6</div>
 	</script>
 	<!-- template to render the employee list items-->
 	<script id="employee-li-tpl" type="text/x-handlebars-template">
